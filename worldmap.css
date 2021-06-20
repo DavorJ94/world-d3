@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+}
+#worldMap {
+  margin: 0 auto;
+}
+.sphere {
+  fill: #125bd2;
+}
+.countries {
+  fill: #24921a;
+  stroke: black;
+  stroke-width: 0.2;
+}
+.countries:hover {
+  fill: yellow;
+  cursor: pointer;
+  stroke-width: 1.2;
+}
+.nameAuthor {
+  font-size: 30px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: white;
+}
